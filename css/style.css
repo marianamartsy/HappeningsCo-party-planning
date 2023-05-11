@@ -33,6 +33,9 @@ body {
 	background-color: var(--shadow-color);
 	z-index: -1;
 }
+.hero-img{
+	background-position: center;
+}
 .active {
 	text-decoration: underline;
 }
@@ -171,7 +174,7 @@ nav {
 /* aboutUs  */
 
 .aboutus-hero {
-	background-image: url('../img/aboutus/drink-640.png');
+	background-image: url('../img/aboutus/happy-birthday640.jpg');
 }
 .aboutus-info .container {
 	padding: 2em 0.5em;
@@ -371,7 +374,7 @@ nav {
 		height: auto;
 	}
 	.aboutus-hero {
-		background-image: url('../img/aboutus/drink-1920.png');
+		background-image: url('../img/aboutus/happy-birthday_1920.jpg');
 	}
 	.services-hero {
 		background-image: url('../img/services/balloons_1920.jpg');
