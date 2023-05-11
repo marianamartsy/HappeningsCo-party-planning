@@ -88,7 +88,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group mb-4">
                                         <label for="event-type">Event Type:</label>
-                                        <select id="event-type" name="event-type" required>
+                                        <select class="form-select" id="event-type" name="event-type" required>
                                             <option value="">Select Event Type</option>
                                             <option value="Wedding">Wedding</option>
                                             <option value="Birthday">Birthday</option>
@@ -100,7 +100,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group mb-4">
                                         <label for="subject">Subject:</label>
-                                        <select id="subject" name="subject" required>
+                                        <select id="subject" class="form-select" name="subject" required>
                                             <option value="">Select a Subject</option>
                                             <option value="General Inquiry">General Inquiry</option>
                                             <option value="Event Booking">Event Booking</option>
@@ -109,13 +109,13 @@
                                             <option value="Other">Other</option>
                                         </select>
                                     </div>
-                                    <div class="col-12">
-                                        <label>Your message:</label>
-                                        <textarea class="form-control" rows="6"></textarea>
-                                    </div>
-                                    <div class="mt-3">
-                                        <button class="btn btn-primary">Send</button>
-                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label>Your message:</label>
+                                    <textarea class="form-control" rows="6"></textarea>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="btn btn-info">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -128,15 +128,11 @@
         <div class="container d-flex flex-column align-items-center">
             <p class="display-4 py-4">Directions map</p>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163974.59324806317!2d19.86444958939342!3d50.046901417666824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471644c0354e18d1%3A0xb46bb6b576478abf!2zS3Jha8Ozdw!5e0!3m2!1spl!2spl!4v1637683976518!5m2!1spl!2spl"
-                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190257.09666050426!2d-88.04344054337845!3d41.8333122117246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20Illinois%2C%20Stany%20Zjednoczone!5e0!3m2!1spl!2spl!4v1683811333614!5m2!1spl!2spl"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
-
-
-
-
-
 
     <footer class="bg-dark text-light">
         <div class="footer__bottom-text py-5 mb-0 text-center">
