@@ -12,14 +12,10 @@
 	--dark-color: rgb(108, 99, 108);
 	--darker-color: rgb(78, 116, 191);
 	--shadow-color: rgba(0, 0, 0, 0.237);
-	--contrast-color: rgb(232, 170, 72);
 	--pure-white-color: rgba(255, 255, 255, 0.923);
-	--background-garadient: linear-gradient(45deg, rgba(36, 191, 230, 0.35), rgba(171, 7, 241, 0.35));
-	--background-garadient-solid: linear-gradient(45deg, rgb(15, 103, 115), rgb(18, 100, 208));
 	scroll-behavior: smooth;
 	font-size: 62.5%;
 }
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.6rem;
@@ -33,7 +29,7 @@ body {
 	background-color: var(--shadow-color);
 	z-index: -1;
 }
-.hero-img{
+.hero-img {
 	background-position: center;
 }
 .active {
@@ -86,6 +82,7 @@ nav {
 .navbar-nav .nav-link:nth-child(even) {
 	color: var(--secondary-color);
 }
+
 /* header  */
 
 .carousel-item {
@@ -108,9 +105,10 @@ nav {
 .carousel-control-next-icon {
 	background-color: var(--light-color);
 }
-.logo-img{
+.logo-img {
 	width: 70%;
 }
+
 /* home  */
 
 .home-boxes {
@@ -266,6 +264,7 @@ nav {
 }
 
 /* projects  */
+
 .projects-hero {
 	background-image: url('../img/projects/hero-hand-holding_640.jpg');
 	background-position: center;
@@ -329,22 +328,18 @@ nav {
 	.top-hero {
 		height: 400px;
 	}
-	.aboutus-img {
-		height: 500px;
-		object-fit: cover;
-	}
 }
 
 @media (min-width: 768px) {
 	.carousel-item {
-		height: 600px;
+		height: 550px;
 	}
 	.top-hero {
-		height: 600px;
+		height: 550px;
 	}
 }
 @media (min-width: 992px) {
-	.logo-img{
+	.logo-img {
 		width: 100%;
 	}
 	.carousel-img-one {
@@ -390,8 +385,5 @@ nav {
 	.home-history {
 		padding-right: 120px;
 		font-size: 2rem;
-	}
-	.top-hero {
-		height: 800px;
 	}
 }
