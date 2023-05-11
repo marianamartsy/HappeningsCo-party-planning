@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--main-color: rgb(121, 153, 216);
+	--secondary-color: rgb(191, 3, 125);
+	--light-color: rgba(195, 210, 242, 0.491);
+	--dark-color: rgb(108, 99, 108);
+	--darker-color: rgb(78, 116, 191);
+	--shadow-color: rgba(0, 0, 0, 0.237);
+	--contrast-color: rgb(232, 170, 72);
+	--pure-white-color: rgba(255, 255, 255, 0.923);
+	--background-garadient: linear-gradient(45deg, rgba(36, 191, 230, 0.35), rgba(171, 7, 241, 0.35));
+	--background-garadient-solid: linear-gradient(45deg, rgb(15, 103, 115), rgb(18, 100, 208));
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6rem;
+}
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--shadow-color);
+	z-index: -1;
+}
+.active {
+	text-decoration: underline;
+}
+.top-hero {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	z-index: 0;
+}
+.top-hero-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 3.6rem;
+	text-transform: uppercase;
+}
+.section-heading {
+	color: var(--main-color);
+	text-transform: uppercase;
+}
+
+/* nav */
+nav {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+.navbar-toggler {
+	font-size: 3rem;
+	color: var(--secondary-color);
+}
+.navbar-brand,
+.navbar-brand .span {
+	color: var(--secondary-color);
+	text-decoration: none;
+	font-size: 2.2rem;
+	font-weight: bold;
+	text-transform: none;
+}
+
+.navbar-brand span,
+.navbar-brand i {
+	color: var(--darker-color);
+}
+.navbar-nav .nav-link:nth-child(odd) {
+	color: var(--main-color);
+}
+.navbar-nav .nav-link:nth-child(even) {
+	color: var(--secondary-color);
+}
+/* header  */
+
+.carousel-item {
+	position: relative;
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+.carousel-img-one {
+	background-image: url('../img/Logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.carousel-img-two {
+	background-image: url('../img/header-marriage640.jpg');
+}
+.carousel-img-three {
+	background-image: url('../img/header-happy-birthday640.jpg');
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: var(--light-color);
+}
+
+/* home  */
+
+.home-boxes {
+	padding: 5em 0;
+	background-color: var(--light-color);
+}
+.home-box i {
+	font-size: 4rem;
+}
+.home-box h3 {
+	font-size: 2.6rem;
+	color: var(--main-color);
+}
+.home-box .bi {
+	color: var(--secondary-color);
+}
+.home-box p {
+	color: var(--dark-color);
+}
+.home-passion {
+	position: relative;
+	height: 350px;
+	background-image: url('../img/main-wedding_1280.jpg');
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+.home-passion p {
+	font-size: 2rem;
+	letter-spacing: 3px;
+	color: var(--pure-white-color);
+}
+.home-heading {
+	color: var(--secondary-color);
+}
+.home-heading span {
+	color: var(--main-color);
+}
+.home-history {
+	letter-spacing: 0.5px;
+	line-height: 1.7;
+	color: var(--dark-color);
+	text-align: center;
+}
+.home-history h3 {
+	font-size: 3rem;
+	font-weight: bold;
+	color: var(--main-color);
+}
+.home-history span {
+	font-weight: bold;
+	color: var(--main-color);
+}
+
+/* footer  */
+
+.footer__box-link {
+	padding: 20px;
+}
+.footer__bottom-text {
+	color: var(--main-color);
+	font-size: 2rem;
+}
+
+/* aboutUs  */
+
+.aboutus-hero {
+	background-image: url('../img/aboutus/drink-640.png');
+}
+.aboutus-info .container {
+	padding: 2em 0.5em;
+}
+.aboutus-top-heading {
+	color: var(--main-color);
+}
+.aboutus-top-heading .span {
+	color: var(--secondary-color);
+}
+.aboutus-text,
+.aboutus-card {
+	padding: 1.8em;
+	letter-spacing: 2px;
+}
+.aboutus-text p::first-letter {
+	font-size: 2em;
+	color: var(--secondary-color);
+}
+.aboutus-text h3 {
+	margin-bottom: 0.5em;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	color: var(--main-color);
+}
+.aboutus-text-right {
+	text-align: right;
+}
+.aboutus-img {
+	height: 300px;
+	object-fit: cover;
+}
+.aboutus-shadow {
+	box-shadow: inset 0 5px 10px -5px var(--secondary-color);
+}
+.aboutus-card:nth-child(odd) {
+	background-color: var(--light-color);
+}
+.aboutus-card:nth-child(odd) .card-title {
+	color: var(--main-color);
+}
+.aboutus-card:nth-child(even) .card-title {
+	color: var(--secondary-color);
+}
+.card-title {
+	font-size: 2rem;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+.bi-balloon-heart {
+	color: var(--secondary-color);
+	font-size: 2rem;
+}
+
+/* services  */
+
+.services-hero {
+	background-image: url('../img/services/balloons_640.jpg');
+}
+.service-pricing p {
+	letter-spacing: 2px;
+}
+
+.service-hero-box {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	z-index: 0;
+}
+.service-hero-box p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: var(--pure-white-color);
+}
+.box-one {
+	background-image: url('../img/services/gift_640.jpg');
+}
+.box-two {
+	background-image: url('../img/services/wedding-place.jpg');
+}
+.box-three {
+	background-image: url('../img/services/wedding-decor-640.jpg');
+}
+.box-four {
+	background-image: url('../img/services/men_640.jpg');
+}
+
+/* projects  */
+.projects-hero {
+	background-image: url('../img/projects/hero-hand-holding_640.jpg');
+	background-position: center;
+}
+.projects img {
+	height: 240px;
+	object-fit: cover;
+}
+.projects .btn {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+.card-body p {
+	font-size: 1.5rem;
+	color: var(--secondary-color);
+}
+.projects-top {
+	letter-spacing: 2px;
+}
+
+/* contactus  */
+
+.contactus-hero {
+	background-image: url('../img/contactus/happy-birthday-640.jpg');
+	background-position: center;
+}
+.contact{
+	letter-spacing: 2px;
+}
+.contact .contact-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.6rem;
+	color: var(--secondary-color);
+}
+.contact-logo {
+	font-size: 3rem;
+	color: var(--main-color);
+}
+.contact-logo .span {
+	color: var(--secondary-color);
+}
+.contact input,
+.contact select,
+.contact textarea {
+	font-size: 1.6rem;
+}
+.contact .btn {
+	padding: 0.3em 0.8em;
+	font-size: 2rem;
+}
+.contact-map iframe {
+	width: 100%;
+	min-height: 400px;
+}
+.contact .fw-bold {
+	color: var(--main-color);
+}
+
+@media (min-width: 576px) {
+	.top-hero {
+		height: 400px;
+	}
+	.aboutus-img {
+		height: 500px;
+		object-fit: cover;
+	}
+}
+
+@media (min-width: 768px) {
+	.carousel-item {
+		height: 600px;
+	}
+	.top-hero {
+		height: 600px;
+	}
+	.aboutus-hero {
+		background-image: url('../img/aboutus/drink-1920.png');
+	}
+	.services-hero {
+		background-image: url('../img/services/balloons_1920.jpg');
+	}
+	.projects-hero {
+		background-image: url('../img/projects/hero-hand-holding_1920.jpg');
+	}
+	.contactus-hero {
+		background-image: url('../img/contactus/happy-birthday-_1920.jpg');
+	}
+}
+@media (min-width: 992px) {
+	.aboutus-info .container {
+		padding: 0;
+	}
+	.aboutus-text {
+		padding: 5em 0;
+	}
+	.aboutus-text-left {
+		padding-right: 2em;
+		text-align: right;
+	}
+	.aboutus-text-right {
+		padding-left: 2em;
+		text-align: left;
+	}
+	.aboutus-img {
+		height: auto;
+	}
+}
+@media (min-width: 1400px) {
+	.carousel-img-two {
+		background-image: url('../img/header-marriage1280.jpg');
+	}
+	.carousel-img-three {
+		background-image: url('../img/header-happy-birthday1280.jpg');
+	}
+	.home-history {
+		padding-right: 120px;
+		font-size: 2rem;
+	}
+	.top-hero {
+		height: 800px;
+	}
+}
