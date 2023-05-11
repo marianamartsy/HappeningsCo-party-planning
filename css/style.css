@@ -93,21 +93,21 @@ nav {
 	z-index: 0;
 }
 .carousel-img-one {
-	background-image: url('../img/Logo.png');
-	background-size: contain;
-	background-repeat: no-repeat;
+	background-image: url('../img/header-happy-birthday640.jpg');
 }
 .carousel-img-two {
 	background-image: url('../img/header-marriage640.jpg');
 }
 .carousel-img-three {
-	background-image: url('../img/header-happy-birthday640.jpg');
+	background-image: url('../img/cake-640.jpg');
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 	background-color: var(--light-color);
 }
-
+.logo-img{
+	width: 70%;
+}
 /* home  */
 
 .home-boxes {
@@ -143,7 +143,9 @@ nav {
 .home-heading {
 	color: var(--secondary-color);
 }
-.home-heading span {
+.home-heading span,
+.home-history span,
+.home-history h3 {
 	color: var(--main-color);
 }
 .home-history {
@@ -154,12 +156,6 @@ nav {
 }
 .home-history h3 {
 	font-size: 3rem;
-	font-weight: bold;
-	color: var(--main-color);
-}
-.home-history span {
-	font-weight: bold;
-	color: var(--main-color);
 }
 
 /* footer  */
@@ -293,7 +289,7 @@ nav {
 	background-image: url('../img/contactus/happy-birthday-640.jpg');
 	background-position: center;
 }
-.contact{
+.contact {
 	letter-spacing: 2px;
 }
 .contact .contact-title {
@@ -343,20 +339,20 @@ nav {
 	.top-hero {
 		height: 600px;
 	}
-	.aboutus-hero {
-		background-image: url('../img/aboutus/drink-1920.png');
-	}
-	.services-hero {
-		background-image: url('../img/services/balloons_1920.jpg');
-	}
-	.projects-hero {
-		background-image: url('../img/projects/hero-hand-holding_1920.jpg');
-	}
-	.contactus-hero {
-		background-image: url('../img/contactus/happy-birthday-_1920.jpg');
-	}
 }
 @media (min-width: 992px) {
+	.logo-img{
+		width: 100%;
+	}
+	.carousel-img-one {
+		background-image: url('../img/header-happy-birthday1280.jpg');
+	}
+	.carousel-img-two {
+		background-image: url('../img/header-marriage1280.jpg');
+	}
+	.carousel-img-three {
+		background-image: url('../img/cake-1920.jpg');
+	}
 	.aboutus-info .container {
 		padding: 0;
 	}
@@ -374,14 +370,20 @@ nav {
 	.aboutus-img {
 		height: auto;
 	}
+	.aboutus-hero {
+		background-image: url('../img/aboutus/drink-1920.png');
+	}
+	.services-hero {
+		background-image: url('../img/services/balloons_1920.jpg');
+	}
+	.projects-hero {
+		background-image: url('../img/projects/hero-hand-holding_1920.jpg');
+	}
+	.contactus-hero {
+		background-image: url('../img/contactus/happy-birthday-_1920.jpg');
+	}
 }
 @media (min-width: 1400px) {
-	.carousel-img-two {
-		background-image: url('../img/header-marriage1280.jpg');
-	}
-	.carousel-img-three {
-		background-image: url('../img/header-happy-birthday1280.jpg');
-	}
 	.home-history {
 		padding-right: 120px;
 		font-size: 2rem;
