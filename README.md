@@ -26,8 +26,12 @@ To view the website, simply open the `index.html` file in a web browser.
 
 ## Credits
 
-- Bootstrap: The project utilizes the Bootstrap framework for responsive design and styling.
-- Google Fonts: [https://fonts.google.com/]
-- Pixabay: [https://pixabay.com/]
+Bootstrap: The project utilizes the Bootstrap framework for responsive design and styling.
+Google Fonts - for the selection of font styles.
+Pixabay - for providing royalty-free images used in the project.
+Feathericons - open source icons
+
+
+
 
 
