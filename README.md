@@ -28,6 +28,7 @@ To view the website, simply open the `index.html` file in a web browser.
 
 - Bootstrap: The project utilizes the Bootstrap framework for responsive design and styling.
 - Google Fonts - for the selection of font styles.
+- Google Maps - for the interactive maps and location services.
 - Pixabay - for providing royalty-free images used in the project.
 - Feathericons - open source icons
 
